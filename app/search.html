@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+  <script type="module" src="https://unpkg.com/@freshworks/crayons/dist/crayons/crayons.esm.js">
+  </script>
+  <script nomodule src="https://unpkg.com/@freshworks/crayons/dist/crayons/crayons.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <form role="form" id="search-form">
+      <fw-input label="Search phrase" icon-left="search" id="search-input" autocomplete="off" clear-input=true></fw-input>
+    </form>
+    <div id="result-wrapper" class="margin-top"></div>
+  </div>
+  <script src="scripts/search.js"></script>
+</body>
+
+</html>

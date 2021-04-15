@@ -1,0 +1,9 @@
+{
+    "discourse_url": {
+        "display_name": "Discourse URL",
+        "description": "The base URL of your Discourse instance. e.g., https://community.developers.freshworks.com",
+        "type": "url",
+        "required": true,
+        "visible": true
+    }
+}

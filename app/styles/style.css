@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
