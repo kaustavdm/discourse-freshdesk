@@ -1,9 +1,25 @@
 {
-    "discourse_url": {
-        "display_name": "Discourse URL",
-        "description": "The base URL of your Discourse instance. e.g., https://community.developers.freshworks.com",
-        "type": "url",
-        "required": true,
-        "visible": true
-    }
+  "discourse_url": {
+    "display_name": "Discourse URL",
+    "description": "The base URL of your Discourse instance. e.g., https://community.developers.freshworks.com",
+    "type": "url",
+    "required": true,
+    "visible": true
+  },
+  "discourse_api_key": {
+    "display_name": "Discourse API Key",
+    "description": "An API key created from the Discourse instance's admin. This key should be created as a Global Key, allowing all actions. This is necessary for this app to access User lists.",
+    "type": "text",
+    "secure": true,
+    "required": true,
+    "visible": true
+  },
+  "discourse_api_username": {
+    "display_name": "Discourse API Username",
+    "description": "Username against which the API key has been issued.",
+    "type": "text",
+    "secure": true,
+    "required": true,
+    "visible": true
+  }
 }
